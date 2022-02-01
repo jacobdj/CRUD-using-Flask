@@ -1,0 +1,25 @@
+a[href="register"]{
+	text-decoration: none;
+	font-size: larger;
+	color: purple;
+}
+
+a[href="login"]{
+	text-decoration: none;
+	font-size: larger;
+	margin-left: 50px;
+	color: purple;
+
+}
+
+
+body{
+	background-image:url("back.jpeg") ;
+	text-align: center;
+
+}
+
+.log{
+	color: purple;
+	font-size: larger;
+}

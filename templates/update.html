@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='home.css')}}">
+</head>
+<body>
+<form action="updateEmp" method="POST">
+
+
+<table align="center">
+	
+	<tr>
+		<td>Name</td>
+		<td><input type="text" name="name"></td>
+	</tr>
+	<tr>
+		<td>Contact</td>
+		<td><input type="text" name="contact"></td>
+	</tr>
+	<tr>
+		<td>Email</td>
+		<td><input type="email" name="email"></td>
+	</tr>
+	<tr>
+		<td>Password</td>
+		<td><input type="text" name="pwd"></td>
+	</tr>
+    <tr>
+		<td>ID</td>
+		<td><input type="text" name="id" placeholder="id to be upddated"></td>
+	</tr>
+	<tr>
+		<td><input type="submit" value="submit" ></td>
+	</tr>
+	
+</table>
+ <a href="/">Home Page</a>
+</form>
+</body>
+</html>
